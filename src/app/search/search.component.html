@@ -3,9 +3,13 @@
     <b>Search:</b>
   </span>
 
+<!--  <input-->
+<!--    type="text"-->
+<!--    (input)="changeSearchValue($event)"-->
+<!--  >-->
   <input
     type="text"
-    (input)="changeSearchValue($event)"
+    [(ngModel)]="searchValue"
   >
 
   <span>
